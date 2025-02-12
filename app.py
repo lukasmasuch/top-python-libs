@@ -147,6 +147,12 @@ def aggregate_statistics(input_text: str) -> pd.DataFrame:
 
     progress = st.progress(0, text="Aggregating statistics...")
 
+    # To clean list:
+    # libs = ""
+    # for lib in items:
+    #     libs += f"{lib}\n"
+    # st.code(libs)
+
     for i, lib in enumerate(items):
         progress.progress(i / len(items), text="Aggregating statistics...")
         # Attempt to parse as a GitHub repo directly
