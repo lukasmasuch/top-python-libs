@@ -192,10 +192,10 @@ def aggregate_statistics(input_text: str) -> pd.DataFrame:
     return df
 
 
-st.subheader("Python libraries with most dependents on GitHub")
+st.subheader(":material/crown: Python libraries with most dependents on GitHub")
 st.caption(
     "Dependents is a number provided by Github that refers to the number of public "
-    "repositories that declares a library as a dependency on Github. This number does "
+    "repositories on Github that declares a library as a dependency. This number does "
     "not include private repositories or transitive dependencies."
 )
 
