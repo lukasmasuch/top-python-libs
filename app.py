@@ -139,7 +139,7 @@ def aggregate_statistics(input_text: str) -> pd.DataFrame:
     # --- 1. Parse the input into a list of strings ---
     # Split by commas, new lines, or whitespace:
     raw_items = re.split(r"[,\n\s]+", input_text.strip())
-    items = [x.strip() for x in raw_items if x.strip()]
+    items = set([x.strip() for x in raw_items if x.strip()])
 
     added_gh_repos = set()
 
