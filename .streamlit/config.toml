@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#005885"
+backgroundColor = "white"
+secondaryBackgroundColor = "white"
+textColor = "black"
+roundness = 0.2
+showBorderAroundInputs = true
+sidebarBackgroundColor = "black"
+sidebarSecondaryBackgroundColor = "black"
+sidebarTextColor = "white"
+showSidebarShadow = true
+baseFontSize = 15

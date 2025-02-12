@@ -1,0 +1,4 @@
+https://core-previews.s3-us-west-2.amazonaws.com/pr-9549/streamlit-1.42.0-py2.py3-none-any.whl
+requests
+pandas
+beautifulsoup4
